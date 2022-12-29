@@ -1,4 +1,5 @@
-# Take two int values from user and print greatest among them.
+"""
+# Qus: Take two int values from user and print greatest among them.
 
 print("Enter the two number to find which is greater")
 num1 = int(input("Enter the first number: "))
@@ -11,3 +12,5 @@ else:
     print("Are you kidding, both are equal numbers")
 
 print("Thank you ......")
+
+"""
