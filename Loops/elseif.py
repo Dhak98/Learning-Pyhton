@@ -87,3 +87,15 @@ Is student is allowed to sit in exam or not.
 # Ans:
 
 """
+print("Are allowed to exam , you can check here")
+print("* 75 % or above need to attend exam")
+ch = int(input("Enter the Number of classes held: "))
+ca = int(input("Enter the Number of classes attended: "))
+percentage = (ca/ch)*100
+print("Your attendence percentage is",int(percentage))
+if percentage > 75:
+    print("You are alowed to attend the exam")
+elif percentage == 75:
+    print("You are alowed to attend the exam")
+else:
+    print("Sorry!... You are not allowed, Better Luck Next Time")
