@@ -7,5 +7,16 @@ while i <= enum:
     if i%2 == 0:
         print(i)
     i += 1
+
+"""
+"""
+print("Do you want to print the odd number untill you want: ")
+i=1
+enum = int(input("Enter the end number: "))
+print("The odd numbers untill",enum)
+while i <= enum:
+    if i%2 != 0:
+        print(i)
+    i += 1
     
 """
