@@ -20,3 +20,23 @@ while i <= enum:
     i += 1
     
 """
+##########################################################################################
+
+"""
+# Qus
+
+Take 10 integers from keyboard using loop and print their average value on the screen.
+
+# Answer :
+
+sum = 0
+tum = 10
+while tum>0:
+    print("Enter the number: ")
+    num = int(input())
+    sum = sum + num
+    tum = tum - 1
+print("Average is", sum/10)
+
+"""
+
