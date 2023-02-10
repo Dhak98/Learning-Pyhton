@@ -1,0 +1,1 @@
+Sample Document it is used to understand the concept of File Handling
