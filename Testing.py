@@ -26,3 +26,20 @@ arr[pos1],arr[pos2] = arr[pos2], arr[pos1]
 
 print(arr)
 """
+arr = []
+n = int(input("Enter how many elements you want in list:"))
+
+for i in range(0,n):
+    print("Enter elements for the position",i,"in the list: ", end="")
+    ele = int(input())
+    arr.append(ele)
+    
+print(arr)
+
+# to find the min and largest element in list
+
+small = min(arr)
+lar = max(arr)
+
+print("Smallest Element in arr is ", small)
+print("Largest Element in arr is ", lar)
