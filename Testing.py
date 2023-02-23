@@ -9,6 +9,8 @@ def solve(s):
     print(s.capitalize())
 solve(s=input())
 """
+"""
+#Get an arr size and ele for list from user and swap the element in list as per user wish.
 arr = []
 n = int(input("Enter how many elements you want in list:"))
 
@@ -23,3 +25,4 @@ pos2 = int(input())
 arr[pos1],arr[pos2] = arr[pos2], arr[pos1]
 
 print(arr)
+"""
