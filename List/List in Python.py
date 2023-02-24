@@ -19,3 +19,14 @@ print(max(lst), "is a maximum number in the list")
 print(min(lst), "is a minimum number in the list")
 
 """
+n = input("Enter the String you want to reverse: ")
+
+nr = n[::-1]
+
+print(nr)
+
+if nr == n:
+    print("This is Palindrome")
+else:
+    print("This is not a Palindrome")
+    
