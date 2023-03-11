@@ -47,7 +47,7 @@ print("Smallest Element in arr is ", small)
 print("Largest Element in arr is ", lar)
 
 """
-# To find Fibonacci Series
+"""# To find Fibonacci Series
 
 n = int(input("Enter the number to find the fibonacci series: "))
 
@@ -62,4 +62,24 @@ else:
         n1 = n2
         n2 = sum
         sum = n1 + n2
-        
+        """
+#Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+
+def count_sheeps(sheep):
+    count = 0
+    for i in range(sheep):
+        if sheep == "True":
+            count +=1
+            print(count)
+        else:
+            count +=1
+            print(count)
+
+sheep = [True,  True,  True,  False,
+  True,  True,  True,  True ,
+  True,  False, True,  False,
+  True,  False, False, True ,
+  True,  True,  True,  True ,
+  False, False, True,  True]
+
+print(count_sheeps(sheep))
