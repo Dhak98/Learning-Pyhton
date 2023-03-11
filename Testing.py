@@ -63,17 +63,15 @@ else:
         n2 = sum
         sum = n1 + n2
         """
-#Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
-
+"""#Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+# It is wrong programming code, i don't know the correct programming code.
 def count_sheeps(sheep):
-    count = 0
+    Tcount = 0
+    #Fcount = 0
     for i in range(sheep):
-        if sheep == "True":
-            count +=1
-            print(count)
-        else:
-            count +=1
-            print(count)
+        if i == True:
+            Tcount +=1
+    return(Tcount)
 
 sheep = [True,  True,  True,  False,
   True,  True,  True,  True ,
@@ -82,4 +80,5 @@ sheep = [True,  True,  True,  False,
   True,  True,  True,  True ,
   False, False, True,  True]
 
-print(count_sheeps(sheep))
+print(len(sheep))
+#count_sheeps(sheep)"""
